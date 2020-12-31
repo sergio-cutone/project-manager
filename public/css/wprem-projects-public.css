@@ -1,0 +1,44 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wp-project-gallery .bx-wrapper img {
+ 	margin: 0 auto;
+ }
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative !important;
+    min-height: 1px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.col-xs-15 {
+    width: 20% !important;
+    float: left !important;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20% !important;
+        float: left !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20% !important;
+        float: left !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20% !important;
+        float: left !important;
+    }
+}

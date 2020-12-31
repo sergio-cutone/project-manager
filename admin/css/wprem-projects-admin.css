@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wp_projects_shortcode {
+	display:none;
+}
+
+ .admin-projects h3 {
+ 	color:#5A5A5A!important; font-family:Georgia,Times New Roman,Times,serif!important; font-size:1.8em!important; font-weight:normal!important;
+ }
+
+ .admin-projects .inner {
+ 	padding:10px;
+ }
+
+ .admin-projects p {
+ 	font-weight:strong;
+ }
